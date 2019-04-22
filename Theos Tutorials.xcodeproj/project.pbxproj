@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16DA8453226D903A0043AB69 /* arial-rounded-mt-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16DA8452226D903A0043AB69 /* arial-rounded-mt-light.ttf */; };
+		730231B61D46A81900F467CD /* LibrarySplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730231B51D46A81900F467CD /* LibrarySplitViewController.swift */; };
+		7318E2961D4A85CE001E524A /* billyEllisVideoTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318E2951D4A85CE001E524A /* billyEllisVideoTutorialViewController.swift */; };
+		733EA9B91D4B866000E98946 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EA9B81D4B866000E98946 /* LaunchScreenViewController.swift */; };
+		7361B9F81D44E52C00CF0534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7361B9F71D44E52C00CF0534 /* AppDelegate.swift */; };
+		7361B9FD1D44E52C00CF0534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7361B9FB1D44E52C00CF0534 /* Main.storyboard */; };
+		7361BA021D44E52C00CF0534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7361BA001D44E52C00CF0534 /* LaunchScreen.storyboard */; };
+		7361BA0C1D44E6B500CF0534 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7361BA0B1D44E6B500CF0534 /* HomeViewController.swift */; };
+		7361BA0F1D44EB0100CF0534 /* IntroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7361BA0E1D44EB0100CF0534 /* IntroTableViewController.swift */; };
+		7361BA111D44EC8400CF0534 /* IntroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7361BA101D44EC8400CF0534 /* IntroDetailViewController.swift */; };
+		7361BA161D45013500CF0534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7361BA151D45013500CF0534 /* Assets.xcassets */; };
+		7361BA181D45022000CF0534 /* IntroSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7361BA171D45022000CF0534 /* IntroSplitViewController.swift */; };
+		7381E97C1D475CE0009F316D /* PreferenceBundle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7381E97B1D475CE0009F316D /* PreferenceBundle.txt */; };
+		7381E97E1D475FE1009F316D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7381E97D1D475FE1009F316D /* MessageUI.framework */; };
+		7381E9811D475FF1009F316D /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7381E9801D475FF1009F316D /* MoreTableViewController.swift */; };
+		7388F9751D4E036100CE65D9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388F9741D4E036100CE65D9 /* Colors.swift */; };
+		73B731941D4E9D5800B56A73 /* FAQSTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B731931D4E9D5800B56A73 /* FAQSTableViewController.swift */; };
+		73B731961D4E9D6300B56A73 /* FAQSDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B731951D4E9D6300B56A73 /* FAQSDetailViewController.swift */; };
+		73B731981D4E9D7200B56A73 /* FAQSSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B731971D4E9D7100B56A73 /* FAQSSplitViewController.swift */; };
+		73BE1DD11D45F0F800459A22 /* LibraryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BE1DD01D45F0F800459A22 /* LibraryDetailViewController.swift */; };
+		73BE1DD31D45F10800459A22 /* LibraryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BE1DD21D45F10800459A22 /* LibraryTableViewController.swift */; };
+		7D7CA3DC1D55106D00D8EE8C /* BillyEllisVideoPreferenceBundleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7CA3DB1D55106D00D8EE8C /* BillyEllisVideoPreferenceBundleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16DA8452226D903A0043AB69 /* arial-rounded-mt-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arial-rounded-mt-light.ttf"; sourceTree = "<group>"; };
+		730231B51D46A81900F467CD /* LibrarySplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibrarySplitViewController.swift; sourceTree = "<group>"; };
+		7318E2951D4A85CE001E524A /* billyEllisVideoTutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = billyEllisVideoTutorialViewController.swift; sourceTree = "<group>"; };
+		733EA9B81D4B866000E98946 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		7361B9F41D44E52C00CF0534 /* Theos Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Theos Tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7361B9F71D44E52C00CF0534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7361B9FC1D44E52C00CF0534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7361BA011D44E52C00CF0534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7361BA031D44E52C00CF0534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7361BA0B1D44E6B500CF0534 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7361BA0E1D44EB0100CF0534 /* IntroTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroTableViewController.swift; sourceTree = "<group>"; };
+		7361BA101D44EC8400CF0534 /* IntroDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroDetailViewController.swift; sourceTree = "<group>"; };
+		7361BA151D45013500CF0534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7361BA171D45022000CF0534 /* IntroSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroSplitViewController.swift; sourceTree = "<group>"; };
+		7381E97B1D475CE0009F316D /* PreferenceBundle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PreferenceBundle.txt; sourceTree = "<group>"; };
+		7381E97D1D475FE1009F316D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7381E9801D475FF1009F316D /* MoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
+		7388F9741D4E036100CE65D9 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		73B731931D4E9D5800B56A73 /* FAQSTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQSTableViewController.swift; sourceTree = "<group>"; };
+		73B731951D4E9D6300B56A73 /* FAQSDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQSDetailViewController.swift; sourceTree = "<group>"; };
+		73B731971D4E9D7100B56A73 /* FAQSSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQSSplitViewController.swift; sourceTree = "<group>"; };
+		73BE1DD01D45F0F800459A22 /* LibraryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryDetailViewController.swift; sourceTree = "<group>"; };
+		73BE1DD21D45F10800459A22 /* LibraryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryTableViewController.swift; sourceTree = "<group>"; };
+		7D7CA3DB1D55106D00D8EE8C /* BillyEllisVideoPreferenceBundleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillyEllisVideoPreferenceBundleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7361B9F11D44E52C00CF0534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7381E97E1D475FE1009F316D /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7361B9EB1D44E52C00CF0534 = {
+			isa = PBXGroup;
+			children = (
+				7381E97D1D475FE1009F316D /* MessageUI.framework */,
+				7361B9F61D44E52C00CF0534 /* Theos Tutorials */,
+				7361B9F51D44E52C00CF0534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7361B9F51D44E52C00CF0534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7361B9F41D44E52C00CF0534 /* Theos Tutorials.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7361B9F61D44E52C00CF0534 /* Theos Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				7388F9741D4E036100CE65D9 /* Colors.swift */,
+				7361BA091D44E6A900CF0534 /* Views */,
+				7361B9F71D44E52C00CF0534 /* AppDelegate.swift */,
+				7361B9FB1D44E52C00CF0534 /* Main.storyboard */,
+				7361BA151D45013500CF0534 /* Assets.xcassets */,
+				7361BA001D44E52C00CF0534 /* LaunchScreen.storyboard */,
+				16DA8452226D903A0043AB69 /* arial-rounded-mt-light.ttf */,
+				733EA9B81D4B866000E98946 /* LaunchScreenViewController.swift */,
+				7361BA031D44E52C00CF0534 /* Info.plist */,
+			);
+			path = "Theos Tutorials";
+			sourceTree = "<group>";
+		};
+		7361BA091D44E6A900CF0534 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7381E97F1D475FE8009F316D /* More */,
+				73B731921D4E9D4100B56A73 /* FAQ */,
+				73BE1DCF1D45F0E600459A22 /* Library */,
+				7361BA0D1D44EAE800CF0534 /* Intro */,
+				7361BA0A1D44E6AD00CF0534 /* Home */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7361BA0A1D44E6AD00CF0534 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7361BA0B1D44E6B500CF0534 /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		7361BA0D1D44EAE800CF0534 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				7361BA0E1D44EB0100CF0534 /* IntroTableViewController.swift */,
+				7361BA171D45022000CF0534 /* IntroSplitViewController.swift */,
+				7361BA101D44EC8400CF0534 /* IntroDetailViewController.swift */,
+				7318E2951D4A85CE001E524A /* billyEllisVideoTutorialViewController.swift */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		7381E97F1D475FE8009F316D /* More */ = {
+			isa = PBXGroup;
+			children = (
+				7381E9801D475FF1009F316D /* MoreTableViewController.swift */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		73B731921D4E9D4100B56A73 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				73B731931D4E9D5800B56A73 /* FAQSTableViewController.swift */,
+				73B731951D4E9D6300B56A73 /* FAQSDetailViewController.swift */,
+				73B731971D4E9D7100B56A73 /* FAQSSplitViewController.swift */,
+			);
+			name = FAQ;
+			sourceTree = "<group>";
+		};
+		73BE1DCF1D45F0E600459A22 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				7381E97B1D475CE0009F316D /* PreferenceBundle.txt */,
+				7D7CA3DB1D55106D00D8EE8C /* BillyEllisVideoPreferenceBundleViewController.swift */,
+				73BE1DD21D45F10800459A22 /* LibraryTableViewController.swift */,
+				730231B51D46A81900F467CD /* LibrarySplitViewController.swift */,
+				73BE1DD01D45F0F800459A22 /* LibraryDetailViewController.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7361B9F31D44E52C00CF0534 /* Theos Tutorials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7361BA061D44E52C00CF0534 /* Build configuration list for PBXNativeTarget "Theos Tutorials" */;
+			buildPhases = (
+				7361B9F01D44E52C00CF0534 /* Sources */,
+				7361B9F11D44E52C00CF0534 /* Frameworks */,
+				7361B9F21D44E52C00CF0534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Theos Tutorials";
+			productName = "Theos Tutorials";
+			productReference = 7361B9F41D44E52C00CF0534 /* Theos Tutorials.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7361B9EC1D44E52C00CF0534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Aland Kawa";
+				TargetAttributes = {
+					7361B9F31D44E52C00CF0534 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5YY9H4RAS5;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 7361B9EF1D44E52C00CF0534 /* Build configuration list for PBXProject "Theos Tutorials" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7361B9EB1D44E52C00CF0534;
+			productRefGroup = 7361B9F51D44E52C00CF0534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7361B9F31D44E52C00CF0534 /* Theos Tutorials */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7361B9F21D44E52C00CF0534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DA8453226D903A0043AB69 /* arial-rounded-mt-light.ttf in Resources */,
+				7381E97C1D475CE0009F316D /* PreferenceBundle.txt in Resources */,
+				7361BA021D44E52C00CF0534 /* LaunchScreen.storyboard in Resources */,
+				7361BA161D45013500CF0534 /* Assets.xcassets in Resources */,
+				7361B9FD1D44E52C00CF0534 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7361B9F01D44E52C00CF0534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733EA9B91D4B866000E98946 /* LaunchScreenViewController.swift in Sources */,
+				73B731961D4E9D6300B56A73 /* FAQSDetailViewController.swift in Sources */,
+				7361BA0F1D44EB0100CF0534 /* IntroTableViewController.swift in Sources */,
+				7388F9751D4E036100CE65D9 /* Colors.swift in Sources */,
+				7D7CA3DC1D55106D00D8EE8C /* BillyEllisVideoPreferenceBundleViewController.swift in Sources */,
+				73B731941D4E9D5800B56A73 /* FAQSTableViewController.swift in Sources */,
+				73B731981D4E9D7200B56A73 /* FAQSSplitViewController.swift in Sources */,
+				7361BA181D45022000CF0534 /* IntroSplitViewController.swift in Sources */,
+				7361BA111D44EC8400CF0534 /* IntroDetailViewController.swift in Sources */,
+				7318E2961D4A85CE001E524A /* billyEllisVideoTutorialViewController.swift in Sources */,
+				7381E9811D475FF1009F316D /* MoreTableViewController.swift in Sources */,
+				73BE1DD11D45F0F800459A22 /* LibraryDetailViewController.swift in Sources */,
+				7361B9F81D44E52C00CF0534 /* AppDelegate.swift in Sources */,
+				73BE1DD31D45F10800459A22 /* LibraryTableViewController.swift in Sources */,
+				7361BA0C1D44E6B500CF0534 /* HomeViewController.swift in Sources */,
+				730231B61D46A81900F467CD /* LibrarySplitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7361B9FB1D44E52C00CF0534 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7361B9FC1D44E52C00CF0534 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7361BA001D44E52C00CF0534 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7361BA011D44E52C00CF0534 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7361BA041D44E52C00CF0534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7361BA051D44E52C00CF0534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7361BA071D44E52C00CF0534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5YY9H4RAS5;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Aland_Kawa/Library/Mobile,
+					"Documents/com~apple~CloudDocs/Tech",
+					Development/Xcode/Theos,
+					Tutorials,
+					App/iOS/Theos,
+					Tutorials/,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Theos Tutorials/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hevie.Theos-Tutorials";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7361BA081D44E52C00CF0534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5YY9H4RAS5;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Aland_Kawa/Library/Mobile,
+					"Documents/com~apple~CloudDocs/Tech",
+					Development/Xcode/Theos,
+					Tutorials,
+					App/iOS/Theos,
+					Tutorials/,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Theos Tutorials/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hevie.Theos-Tutorials";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7361B9EF1D44E52C00CF0534 /* Build configuration list for PBXProject "Theos Tutorials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7361BA041D44E52C00CF0534 /* Debug */,
+				7361BA051D44E52C00CF0534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7361BA061D44E52C00CF0534 /* Build configuration list for PBXNativeTarget "Theos Tutorials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7361BA071D44E52C00CF0534 /* Debug */,
+				7361BA081D44E52C00CF0534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7361B9EC1D44E52C00CF0534 /* Project object */;
+}

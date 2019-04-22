@@ -1,0 +1,81 @@
+
+In this tutorial, we will learn how to use an if/else statement to work with preference bundles in order to enable/disable our tweak. Let's open up our PowerInject's tweak.xm file. In the method orderFront, we first need a NSDictionary to hold the contents of our bundle, and then we need an if/else statement that will check the dictionary we created if the bundle will allow the tweak to run or not.
+
+In the method orderFront:
+
+- (void) orderFront {
+     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:@"/var/mobile/Library/Preferences/com.yourname.powerinject.plist"];
+
+Our tweak will read this dictionary for the setting that the user will set in Settings.app
+
+The following if/else statement will search our preference bundle for the Enabled key to compare whether or not it is enabled, and if it's enabled, show our alert, and if it's not enabled, call the original function:
+
+if([[dict objectForKey:@"Enabled"] boolValue]) {
+
+     UIAlertView *powerInjectAlert = [[UIAlertView alloc] initWithTitle:@"PowerInject" message:@"The developer can insert custom code here!" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+     [powerInjectAlert show];
+     [powerInjectAlert release];
+} else {
+     %orig;
+}
+
+[dict release];
+
+Now we have our finished Tweak.xm file:
+
+#import <SpringBoard/SpringBoard.h>
+
+%hook SBPowerDownController
+
+- (void) orderFront {
+     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:@"/var/mobile/Library/Preferences/com.yourname.powerinject.plist"];
+
+if([[dict objectForKey:@"Enabled"] boolValue]) {
+     UIAlertView *powerInjectAlert = [[UIAlertView alloc] initWithTitle:@"PowerInject" message:@"The developer can insert custom code here!" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+     [powerInjectAlert show];
+     [powerInjectAlert release];
+} else{
+     %orig;
+}
+[dict release];
+}
+%end
+
+Let's save and close that file. Close iFile and open MobileTerminal. In MobileTerminal, launch NIC. From the list of templates, use the iphone/preference_bundle template. 
+Project Name: PowerInjectSettings
+Package Name: com.yourname.powerinjectsettings
+Author/Maintainer Name: Your_Name_Here
+
+Now let's open up iFile and move the powerinjectsettings project folder into the powerinject tweak folder.
+The following diagram will show the file structure of the powerinject folder.
+
+|-powerinject/
+|--powerinjectsettings/
+|---powerinjectsettings.mm
+|----Resources/
+|-----PowerInjectSettings.plist
+
+You have the right file structure? Good! Let's continue by going into our Resources folder of our powerinjectsettings folder. Open the PowerInjectSettings.plist file and locate where it says:
+
+<key>key</key>
+<string>AwesomeSwitch1</string>
+
+And change it to:
+
+<key>key</key>
+<string>Enabled</string>
+
+Remember in Tweak.xm how it said objectForKey in the NSDictionary? Well this is the key that PSSwitchCell will use to enable and disable our tweak. Now, locate where it says:
+
+<key>label</key>
+<string>Awesome Switch 1</string>
+
+And you can change the string to whatever you want. That string will be displayed in the cell holding the switch. Save and close the plist and go to the powerinject folder (not the powerinjectsettings folder). Open up the Makefile with iFile's handy little Text Viewer. Add a blank line below the	APPLICATION_NAME line and add the following to that line:
+
+SUBPROJECTS = powerinjectsettings
+
+Now let's add a blank line at the end of the file and place the following on that line:
+
+include $(THEOS_MAKE_PATH)/aggregate.mk
+
+Now, your application is ready to build! Go ahead and test and install your tweak. Happy coding!
