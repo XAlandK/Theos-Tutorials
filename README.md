@@ -10,4 +10,4 @@ ReverseEffect
 
 ----------
 
-This is an updated version of swift 5 and iOS 12. Updated by Aland Kawa.
+Updated Theos Tutorials (Swift 5 & iOS 12 SDK) by Aland Kawa.
